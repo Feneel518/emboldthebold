@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* .container {
+      background-color: #13505b;
+      height: 400px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      font-family: "Times New Roman", Times, serif;
+    } */
+
+    .main-logo {
+      width: 300px;
+    }
+
+    h1 {
+      font-weight: 100;
+      font-size: 40px;
+    }
+
+    .content {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .content-desc {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 24px;
+      gap: 40px;
+    }
+
+    h4 {
+      padding: 0;
+      margin: 0;
+      font-size: 40px;
+    }
+    p {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <body>
+    <div
+      class="container"
+      style="
+        width: 100%;
+        background-color: #13505b;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        color: white;
+      "
+    >
+      <h1>Thank you for your order</h1>
+      <img
+        class="main-logo"
+        src="https://embold.s3.ap-south-1.amazonaws.com/uploads/whiteLogo.png"
+        alt="Embold Logo"
+      />
+    </div>
+    <div class="content">
+      <div class="content-desc">
+        <h4>Your Order is Confirmed</h4>
+        <h4>{{username}} :)</h4>
+        <p>Thank you so much for placing your order with us.</p>
+        <p>
+          Our team is currently packing your order with lots of love and care.
+        </p>
+        <p>
+          It should be dispatched within the next 2-3 days and you can expect
+          delivery within 4-5 days after dispatch.
+        </p>
+        <p>We cannot wait for you to experience the awesomeness ✨</p>
+        <p>Talk Soon {{username}} :)</p>
+      </div>
+    </div>
+  </body>
+</html>
